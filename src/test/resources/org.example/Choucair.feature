@@ -15,7 +15,7 @@ Examples:
 | /*-+°!”#$%&//                                                                                                                                                                                                                                                                                                                                                 |There are no listings matching your search.|
 
 
-Scenario Outline: CP_007
+Scenario Outline: CP_007- CP_008- CP_009 ingreso de datos en el formulario
   Given Abrir pagina choucair.com
   When Buscar <oferta>
   And Seleccionar oferta

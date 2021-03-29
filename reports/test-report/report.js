@@ -102,7 +102,8 @@ formatter.match({
   "location": "Pasos.StepDefinitions.result_should_be(java.lang.String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[]\u003e but was:\u003c[There are no listings matching your search.]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat Pasos.StepDefinitions.result_should_be(StepDefinitions.java:60)\r\n\tat ✽.El resultado debe ser There are no listings matching your search.(file:///C:/Users/Luisa%20Avila/IdeaProjects/automatizacionChoucair/src/test/resources/org.example/Choucair.feature:8)\r\n",
+  "status": "failed"
 });
 formatter.after({
   "status": "passed"
@@ -210,7 +211,7 @@ formatter.after({
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "name": "CP_007",
+  "name": "CP_007- CP_008- CP_009 ingreso de datos en el formulario",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -380,7 +381,7 @@ formatter.examples({
   ]
 });
 formatter.scenario({
-  "name": "CP_007",
+  "name": "CP_007- CP_008- CP_009 ingreso de datos en el formulario",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -425,8 +426,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_aplicar()"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput type\u003d\"button\" class\u003d\"application_button button\" value\u003d\"Apply for job\"\u003e is not clickable at point (218, 591). Other element would receive the click: \u003cdiv id\u003d\"cookie-law-info-bar\" data-nosnippet\u003d\"true\" style\u003d\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: inherit; bottom: 0px; position: fixed; display: block;\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d89.0.4389.90)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-T5M4603C\u0027, ip: \u0027192.168.195.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\LUISAA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ac4d3eb09ea2a4f160bc4739b1402951\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat Pasos.StepDefinitions.dar_clic_aplicar(StepDefinitions.java:89)\r\n\tat ✽.Clic en Aplicar(file:///C:/Users/Luisa%20Avila/IdeaProjects/automatizacionChoucair/src/test/resources/org.example/Choucair.feature:22)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar nombre Luisa Fernanda Avila",
@@ -436,7 +436,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -446,7 +446,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar correo luisalanana@hotmail.com",
@@ -456,7 +456,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_correo(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -466,7 +466,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar celular 3015156687",
@@ -476,7 +476,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_celular(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -486,7 +486,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar estudios No",
@@ -496,7 +496,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_estudios(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -506,7 +506,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar tiempo 1 año",
@@ -516,7 +516,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_tiempo(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -526,7 +526,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar conocimiento No",
@@ -536,7 +536,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_conocimiento(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -546,7 +546,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar aspiracion 2360000",
@@ -556,7 +556,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_aspiracion(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -566,7 +566,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar disponibilidad 1 mes",
@@ -576,7 +576,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_disponibilidad(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -586,7 +586,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar mensaje ninguno",
@@ -596,7 +596,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_mensaje(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -606,13 +606,13 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "CP_007",
+  "name": "CP_007- CP_008- CP_009 ingreso de datos en el formulario",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -657,8 +657,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_aplicar()"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput type\u003d\"button\" class\u003d\"application_button button\" value\u003d\"Apply for job\"\u003e is not clickable at point (218, 591). Other element would receive the click: \u003cdiv id\u003d\"cookie-law-info-bar\" data-nosnippet\u003d\"true\" style\u003d\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: inherit; bottom: 0px; position: fixed; display: block;\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d89.0.4389.90)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-T5M4603C\u0027, ip: \u0027192.168.195.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\LUISAA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58283}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6ef6e947f13a9d55ce92579efcfbadb7\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat Pasos.StepDefinitions.dar_clic_aplicar(StepDefinitions.java:89)\r\n\tat ✽.Clic en Aplicar(file:///C:/Users/Luisa%20Avila/IdeaProjects/automatizacionChoucair/src/test/resources/org.example/Choucair.feature:22)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar nombre ",
@@ -668,7 +667,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -678,7 +677,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar correo ",
@@ -688,7 +687,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_correo(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -698,7 +697,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar celular ",
@@ -708,7 +707,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_celular(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -718,7 +717,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar estudios ",
@@ -728,7 +727,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_estudios(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -738,7 +737,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar tiempo ",
@@ -748,7 +747,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_tiempo(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -758,7 +757,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar conocimiento ",
@@ -768,7 +767,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_conocimiento(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -778,7 +777,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar aspiracion ",
@@ -788,7 +787,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_aspiracion(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -798,7 +797,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar disponibilidad ",
@@ -808,7 +807,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_disponibilidad(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -818,7 +817,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar mensaje ",
@@ -828,7 +827,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_mensaje(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -838,13 +837,13 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "CP_007",
+  "name": "CP_007- CP_008- CP_009 ingreso de datos en el formulario",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -889,8 +888,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_aplicar()"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput type\u003d\"button\" class\u003d\"application_button button\" value\u003d\"Apply for job\"\u003e is not clickable at point (218, 591). Other element would receive the click: \u003cdiv id\u003d\"cookie-law-info-bar\" data-nosnippet\u003d\"true\" style\u003d\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: inherit; bottom: 0px; position: fixed; display: block;\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d89.0.4389.90)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-T5M4603C\u0027, ip: \u0027192.168.195.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\LUISAA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5ca765c249f237f8015f953258031505\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat Pasos.StepDefinitions.dar_clic_aplicar(StepDefinitions.java:89)\r\n\tat ✽.Clic en Aplicar(file:///C:/Users/Luisa%20Avila/IdeaProjects/automatizacionChoucair/src/test/resources/org.example/Choucair.feature:22)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar nombre 48555668",
@@ -900,7 +898,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -910,7 +908,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar correo luisalanana",
@@ -920,7 +918,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_correo(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -930,7 +928,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar celular hola",
@@ -940,7 +938,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_celular(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -950,7 +948,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar estudios 48555668",
@@ -960,7 +958,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_estudios(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -970,7 +968,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar tiempo 48555668",
@@ -980,7 +978,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_tiempo(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -990,7 +988,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar conocimiento 48555668",
@@ -1000,7 +998,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_conocimiento(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -1010,7 +1008,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar aspiracion hola",
@@ -1020,7 +1018,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_aspiracion(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -1030,7 +1028,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar disponibilidad 48555668",
@@ -1040,7 +1038,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_disponibilidad(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -1050,7 +1048,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar mensaje 48555668",
@@ -1060,7 +1058,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_mensaje(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -1070,13 +1068,13 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "CP_007",
+  "name": "CP_007- CP_008- CP_009 ingreso de datos en el formulario",
   "description": "",
   "keyword": "Scenario Outline"
 });
@@ -1121,8 +1119,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_aplicar()"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cinput type\u003d\"button\" class\u003d\"application_button button\" value\u003d\"Apply for job\"\u003e is not clickable at point (218, 591). Other element would receive the click: \u003cdiv id\u003d\"cookie-law-info-bar\" data-nosnippet\u003d\"true\" style\u003d\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: inherit; bottom: 0px; position: fixed; display: block;\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d89.0.4389.90)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-T5M4603C\u0027, ip: \u0027192.168.195.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\LUISAA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 34dda2147eeaff0ab452f7db03317df2\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat Pasos.StepDefinitions.dar_clic_aplicar(StepDefinitions.java:89)\r\n\tat ✽.Clic en Aplicar(file:///C:/Users/Luisa%20Avila/IdeaProjects/automatizacionChoucair/src/test/resources/org.example/Choucair.feature:22)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar nombre /*-¡”#$$%%\u0026",
@@ -1132,7 +1129,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -1142,7 +1139,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar correo /*-¡”#$$%%\u0026",
@@ -1152,7 +1149,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_correo(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -1162,7 +1159,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar celular /*-¡”#$$%%\u0026",
@@ -1172,7 +1169,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_celular(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -1182,7 +1179,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar estudios /*-¡”#$$%%\u0026",
@@ -1192,7 +1189,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_estudios(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -1202,7 +1199,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar tiempo /*-¡”#$$%%\u0026",
@@ -1212,7 +1209,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_tiempo(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -1222,7 +1219,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar conocimiento /*-¡”#$$%%\u0026",
@@ -1232,7 +1229,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_conocimiento(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -1242,7 +1239,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar aspiracion /*-¡”#$$%%\u0026",
@@ -1252,7 +1249,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_aspiracion(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -1262,7 +1259,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar disponibilidad /*-¡”#$$%%\u0026",
@@ -1272,7 +1269,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_disponibilidad(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -1282,7 +1279,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Ingresar mensaje /*-¡”#$$%%\u0026",
@@ -1292,7 +1289,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.llenar_formulario_mensaje(java.lang.String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "clic en enviar aplicacion",
@@ -1302,7 +1299,7 @@ formatter.match({
   "location": "Pasos.StepDefinitions.dar_clic_enviar()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
